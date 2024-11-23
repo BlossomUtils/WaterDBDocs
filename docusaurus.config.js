@@ -120,11 +120,11 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          // {
-          //   label: 'Partnered Servers',
-          //   to: '/partnered',
-          //   position: 'left'
-          // },
+         {
+             label: 'Blog',
+             to: '/blog',
+             position: 'left'
+           },
            {
              label: 'Discord',
              href: 'https://discord.gg/T4CUhhcdzh',
