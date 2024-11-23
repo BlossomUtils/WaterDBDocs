@@ -13,20 +13,20 @@ const config = {
   markdown: {
 
   },
-  title: 'Simple Essentials',
-  tagline: 'Very simple essentials addon',
-  favicon: 'img/',
+  title: 'Blossom Essentials',
+  tagline: 'A feature rich, open source MCBE Addon from the Simple Essentials team.',
+  favicon: 'img/blossomlogo.png',
 
   // Set the production url of your site here
-  url: 'https://docs.simple.amethystdev.com',
+  url: 'https://blossom.amethystdev.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'trashdev', // Usually your GitHub org/user name.
-  projectName: 'azalea', // Usually your repo name.
+  organizationName: 'BlossomUtils', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -52,10 +52,6 @@ const config = {
             
           },
           showReadingTime: false,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -115,7 +111,7 @@ const config = {
         title: '',
         logo: {
           alt: 'My Site Logo',
-          src: '/img/simpleess.png',
+          src: '/img/blossomtitle.png',
         },
         items: [
           {
@@ -129,6 +125,11 @@ const config = {
           //   to: '/partnered',
           //   position: 'left'
           // },
+           {
+             label: 'Discord',
+             href: 'https://discord.gg/T4CUhhcdzh',
+             position: 'right',
+           },
           // {
           //   label: 'Addons',
           //   to: '/addons',

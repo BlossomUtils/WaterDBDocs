@@ -4,7 +4,14 @@ sidebar_position: 1
 
 # Installation
 
-Install the latest version (0.1.6) [here](https://cdn.discordapp.com/attachments/1304108690969858109/1304108693083918366/Simple0.1.6.mcaddon?ex=672e315d&is=672cdfdd&hm=229e9f2d229b1a2a3b048753a3d3ff617536ef7bce938f98e9964dc90a7b2305&)
+Install the latest version below
+
+<div className="card__footer">
+    <a href="https://github.com/BlossomUtils/BlossomEssentials/releases" className="button button--primary button--block">
+  Download addon
+</a>
+    </div>
+    ‎
 
 # Importing the addon
 

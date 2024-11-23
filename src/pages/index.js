@@ -84,33 +84,40 @@ export default function Home() {
     <div className="card__body">
       <h4>UI Maker</h4>
       <small>
-        In Simple Essentials, you can make beautiful UIs personalized to your likings
+        In Blossom Essentials, you can make beautiful UIs personalized to your likings
       </small>
     </div>
     <div className="card__footer">
-      <button className="button button--primary button--block">View Tutorial</button>
+    <a href="/docs/intro" className="button button--primary button--block">
+  View Tutorial
+</a>
+
     </div>
   </div>
   <div className="card feature-card">
     <div className="card__body">
       <h4>Customization focused</h4>
       <small>
-        Simple Essentials is almost entirely focused around customization. You can customize almost everything you want with almost no limits.
+        Blossom Essentials is almost entirely focused around customization. You can customize almost everything you want with almost no limits.
       </small>
     </div>
     <div className="card__footer">
-      <button className="button button--primary button--block">Visit Docs</button>
-    </div>
+    <a href="/docs/intro" className="button button--primary button--block">
+  View Docs
+</a>
+  </div>
   </div>
   <div className="card feature-card">
     <div className="card__body">
       <h4>Open-source</h4>
       <small>
-        Simple Essentials is entirely open source on GitHub. You can modify anything you want, and you are encouraged to modify the code if you need it to do something different.
+        Blossom Essentials is entirely open source on GitHub. You can modify anything you want, and you are encouraged to modify the code if you need it to do something different.
       </small>
     </div>
     <div className="card__footer">
-      <button className="button button--primary button--block">Visit Github</button>
+    <a href="https://github.com/BlossomUtils/BlossomEssentials" className="button button--primary button--block">
+  View GitHub
+</a>
     </div>
   </div>
   </div>

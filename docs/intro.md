@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Simple Essentials
+# Blossom Essentials
 
-Welcome to the Simple Essentials Documentation
+Welcome to the Blossom Essentials Documentation
 
