@@ -12,14 +12,10 @@ authors:
 ---
 \# Features:
 
-
-
 \- Added platform settings, bans, and whitelist
 
 \- Fixed a bug where you couldn't enter certain characters in commands
 
 \- Added modules
 
-
-
-Download on the [Github](github.com/BlossomUtils/BlossomEssentials/releases/tag/0.1.1)
+Download on the [Github](https://github.com/BlossomUtils/BlossomEssentials/releases/tag/0.1.1)
