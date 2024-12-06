@@ -1,5 +1,10 @@
 ---
 sidebar_position: 2
+authors:
+  - name: FruitKitty
+    title: fruitkitty
+    url: ../fruitkitty
+    image_url: https://avatars.githubusercontent.com/u/189482308?s=48&v=4
 ---
 # Modules
 
