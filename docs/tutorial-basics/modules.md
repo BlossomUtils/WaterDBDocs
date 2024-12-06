@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Modules
 
-As of 0.1.2, you can toggle Modules in Blossom Essentials!
+As of 0.1.1, you can toggle Modules in Blossom Essentials!
 
 Choose whatever you want for your server.
 

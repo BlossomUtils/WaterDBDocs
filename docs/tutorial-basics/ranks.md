@@ -22,3 +22,11 @@ To add a rank, go to the Ranks UI and click "add"
 
 -------------------------------
 ## Removing ranks
+
+Removing ranks is easy. Just navigate to the Ranks UI then click `Remove`. Then, you can click the rank you want to remove (Will display with tag)
+
+---------------------------
+
+![Ranks remove ui](image-2.png)
+
+---------------------------
