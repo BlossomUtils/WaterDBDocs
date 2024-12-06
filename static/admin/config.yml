@@ -61,7 +61,9 @@ collections:
   extension: md
   widget: "list"
   create: true
-  slug: "{{slug}}"
+  slug: "{{title}}"
+  nested:
+    depth: 100
   fields:
     - { name: slug, label: Slug, widget: string }
     - { name: body, label: Body, widget: markdown }
