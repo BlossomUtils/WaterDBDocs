@@ -59,7 +59,7 @@ collections:
   folder: docs
   identifier_field: slug
   extension: md
-  widget: "list"
+  widget: "collection"
   create: true
   slug: "{{slug}}"
   nested:
@@ -67,11 +67,3 @@ collections:
   fields:
     - { name: slug, label: Slug, widget: string }
     - { name: body, label: Body, widget: markdown }
-      - label: "Authors"
-      name: "authors" 
-      widget: "list"
-      fields:
-        - { name: name, label: Name, widget: string }
-        - { name: title, label: Title, widget: string } 
-        - { name: url, label: URL, widget: string } 
-        - { name: image_url, label: ImageURL, widget: string }
