@@ -1,10 +1,11 @@
 ---
 slug: ranks
+sidebar_position: "3"
 sidebar-position: 1
 ---
 # Ranks
 
-Ranks is one of the most complicated features in Simple Essentials, so this page will guide you through it!#
+Ranks is one of the most complicated features in Blossom Essentials, so this page will guide you through it!
 
 ----------------------------------------------------
 

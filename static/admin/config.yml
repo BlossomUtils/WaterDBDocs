@@ -63,4 +63,16 @@ collections:
   slug: "{{slug}}"
   fields:
     - { name: slug, label: Slug, widget: string }
+    - { name: sidebar_position, label: Sidebar Position, widget: string}
+    - { name: body, label: Body, widget: markdown }
+- name: advanced
+  label: "Advanced"
+  folder: docs/advanced
+  identifier_field: slug
+  extension: md
+  create: true
+  slug: "{{slug}}"
+  fields:
+    - { name: slug, label: Slug, widget: string }
+    - { name: sidebar_position, label: Sidebar Position, widget: string }
     - { name: body, label: Body, widget: markdown }
