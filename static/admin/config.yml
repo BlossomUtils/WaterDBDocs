@@ -59,7 +59,6 @@ collections:
   folder: docs
   identifier_field: slug
   extension: md
-  widget: "collection"
   create: true
   slug: "{{slug}}"
   nested:
