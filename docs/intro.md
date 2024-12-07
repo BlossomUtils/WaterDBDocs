@@ -5,7 +5,7 @@ authors:
     title: fruitkitty
     url: ../fruitkitty
     image_url: https://avatars.githubusercontent.com/u/189482308?s=48&v=4
-slug: main
+slug: intro
 ---
 
 # Blossom Essentials
