@@ -54,15 +54,13 @@ collections:
         - { name: title, label: Title, widget: string } 
         - { name: url, label: URL, widget: string } 
         - { name: image_url, label: ImageURL, widget: string }
-- name: docs
-  label: "docs"
-  folder: docs
+- name: docs-basics
+  label: "Basics"
+  folder: docs/tutorial-basics
   identifier_field: slug
   extension: md
   create: true
   slug: "{{slug}}"
-  nested:
-    depth: 100
   fields:
     - { name: slug, label: Slug, widget: string }
     - { name: body, label: Body, widget: markdown }
