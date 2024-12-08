@@ -126,6 +126,11 @@ const config = {
              position: 'left'
            },
            {
+            label: 'Bug Reports',
+            to: '/bugs',
+            position: 'left'
+           },
+           {
              label: 'Discord',
              href: 'https://discord.gg/T4CUhhcdzh',
              position: 'right',
