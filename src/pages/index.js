@@ -23,7 +23,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/">
             Docs
           </Link>
         </div>
@@ -59,7 +59,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Welcome to Blossom Essentials">
+      description="Welcome to WaterDB!">
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}
@@ -82,13 +82,13 @@ export default function Home() {
         }} className='mobile-card-list'>
           <div className="card feature-card">
     <div className="card__body">
-      <h4>UI Maker</h4>
+      <h4>Keyvals</h4>
       <small>
-        In Blossom Essentials, you can make beautiful UIs personalized to your likings
+        Make a key with a value that you can retrieve with the key's name.
       </small>
     </div>
     <div className="card__footer">
-    <a href="/docs/intro" className="button button--primary button--block">
+    <a href="/docs" className="button button--primary button--block">
   View Tutorial
 </a>
 
@@ -96,13 +96,13 @@ export default function Home() {
   </div>
   <div className="card feature-card">
     <div className="card__body">
-      <h4>Customization focused</h4>
+      <h4>Collections</h4>
       <small>
-        Blossom Essentials is almost entirely focused around customization. You can customize almost everything you want with almost no limits.
+        Create collections with simple JSON formats, kind of like an array but it is easier to find stuff.
       </small>
     </div>
     <div className="card__footer">
-    <a href="/docs/intro" className="button button--primary button--block">
+    <a href="/docs/" className="button button--primary button--block">
   View Docs
 </a>
   </div>
@@ -111,11 +111,11 @@ export default function Home() {
     <div className="card__body">
       <h4>Open-source</h4>
       <small>
-        Blossom Essentials is entirely open source on GitHub. You can modify anything you want, and you are encouraged to modify the code if you need it to do something different.
+        {siteConfig.title} is entirely open source on GitHub. You can modify anything you want, and you are encouraged to modify the code if you need it to do something different.
       </small>
     </div>
     <div className="card__footer">
-    <a href="https://github.com/BlossomUtils/BlossomEssentials" className="button button--primary button--block">
+    <a href="https://code.amethystdev.com/BlossomUtils/WaterDB" className="button button--primary button--block">
   View GitHub
 </a>
     </div>
@@ -186,7 +186,7 @@ export default function Home() {
 
         <h6 style={{
           "opacity": "0.5"
-        }}><i><b>Addon made by FruitKitty, website basically made by TrashyKitty</b></i></h6>
+        }}><i><b>{siteConfig.title}, {new Date().getFullYear()}</b></i></h6>
       </div>
     </Layout>
   );

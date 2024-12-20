@@ -1,0 +1,100 @@
+---
+sidebar-position: 3
+title: Syntax
+---
+
+# Collection Syntax
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="findfirst" label="findFirst" default>
+    `collection.findFirst()`
+
+    #### Input:
+    `{name: 'Example Name'}`
+
+    #### Returns:
+    If found:
+    `returns the document`
+
+    else:
+    `returns null`
+  </TabItem>
+    <TabItem value="finddocuments" label="findDocuments" default>
+    `collection.findDocuments()`
+
+    #### Input:
+    `{name: 'Example Name'}`
+
+    #### Returns:
+    If found:
+    `returns all documents matching input inside of an array`
+
+    else:
+    `returns []`
+  </TabItem>
+    <TabItem value="findbyid" label="findDocumentByID" default>
+    `collection.findDocumentByID()`
+
+    #### Input:
+    `id`
+
+    #### Returns:
+    If found:
+    `returns the document`
+
+    else:
+    `returns null`
+  </TabItem>
+      <TabItem value="overwriteDataByID" label="overwriteDataByID" default>
+    `collection.overwriteDataByID()`
+
+    #### Input:
+    `id`
+
+    #### Returns:
+    If successful:
+    `returns the document`
+
+    Else:
+    `returns null`
+  </TabItem>
+  <TabItem value="insertDocument" label="insertDocument" default>
+    `collection.insertDocument()`
+
+    #### Input:
+    `{name: 'Example Name'}`
+
+    #### Returns:
+    If successful:
+    `returns null`
+
+    Else:
+    `throws error`
+  </TabItem>
+    <TabItem value="deleteDocumentByID" label="deleteDocumentByID" default>
+    `collection.deleteDocumentByID()`
+
+    #### Input:
+    `id`
+
+    #### Returns:
+    If successful:
+    `returns true`
+
+    Else:
+    `returns false`
+  </TabItem>
+      <TabItem value="clear" label="clear" default>
+    `collection.clear()`
+
+    #### Returns:
+    If successful:
+    `returns null`
+
+    Else:
+    `throws error`
+  </TabItem>
+</Tabs>

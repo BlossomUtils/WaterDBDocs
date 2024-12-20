@@ -1,0 +1,63 @@
+---
+sidebar_position: 2
+title: Getting Started
+---
+
+# Getting started with WaterDB Collections.
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+:::tip
+I suggest that you start a class and use it, then use that class in commands or UIs.
+
+Example Class Usage:
+```js
+class UIBuilder {
+    constructor() {
+        this.db = waterDB.collection('uiBuilder')
+    }
+}
+```
+:::
+
+### Examples:
+
+<Tabs>
+  <TabItem value="class" label="Class" default>
+    ```js
+    class UIBuilder {
+        constructor() {
+            this.db = waterDB.collection('uiBuilder')
+        }
+    }
+    ```
+  </TabItem>
+  <TabItem value="UIs" label="UIs">
+    ```js
+    function ui(plr) {
+        const form = new ActionFormData()
+        form.title("Hey!")
+        form.button("Test")
+        form.show(plr).then(r =>{
+            const { button } = r.formValues
+
+            const db = waterDB.collection('items')
+
+            let asd = db.findFirst({name: "Test"})
+
+            if(!asd) return;
+
+            db.deleteDocumentByID(asd.id)
+        })
+    }
+    ```
+  </TabItem>
+</Tabs>
+
+### Syntax:
+
+`waterDB.collection('Example Collection')`:
+
+`Returns waterDBCollection('Example Collection', WorldPersistentStorage())`
+

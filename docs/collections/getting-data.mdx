@@ -1,0 +1,27 @@
+---
+sidebar-position: 4
+Title: Get Data
+---
+# Getting Data from a Collection
+
+To get data from a collection, do:
+
+`collection.findDocumentByID(id)` or anything else that will get a document.
+
+Then, whatever you have saved the document under, do
+
+`doc.data.name`
+
+doc.data.name should return the name you put in the data when inserting the document.
+
+Example Usage:
+
+```js
+let doc = collection.findFirst({name: 'Example Name'})
+
+console.log(doc.data.name)
+```
+
+```bash
+Example Name
+```

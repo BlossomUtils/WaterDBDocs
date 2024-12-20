@@ -13,12 +13,12 @@ const config = {
   markdown: {
 
   },
-  title: 'Blossom Essentials',
-  tagline: 'A feature rich, open source MCBE Addon from the Simple Essentials team.',
-  favicon: 'img/blossomlogo.png',
+  title: 'WaterDB',
+  tagline: 'A simple, open source MCBE Database from the Blossom Essentials team.',
+  favicon: 'img/waterdb.png',
 
   // Set the production url of your site here
-  url: 'https://blossom.amethystdev.com',
+  url: 'https://water.amethystdev.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -26,7 +26,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'BlossomUtils', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  projectName: 'WaterDocs', // Usually your repo name.
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
@@ -102,7 +102,7 @@ const config = {
       colorMode: {
         "defaultMode": "dark",
         "respectPrefersColorScheme": false,
-        "disableSwitch": true,
+        "disableSwitch": false,
       },
       // Replace with your project's social card
       image: 'img/social.png',
@@ -111,7 +111,7 @@ const config = {
         title: '',
         logo: {
           alt: 'My Site Logo',
-          src: '/img/blossomtitle.png',
+          src: '/img/waterdb.png',
         },
         items: [
           {
@@ -132,7 +132,7 @@ const config = {
            },
            {
              label: 'Discord',
-             href: 'https://discord.gg/T4CUhhcdzh',
+             href: 'https://discord.gg/4MG44SxYDg',
              position: 'right',
            },
           // {
@@ -141,8 +141,8 @@ const config = {
           //   position: 'right'
           // },
           {
-            href: 'https://github.com/SimpleUtils',
-            label: 'GitHub',
+            href: 'https://code.amethystdev.com/BlossomUtils/WaterDB',
+            label: 'Gitea',
             position: 'right',
           },
         ],
@@ -193,7 +193,7 @@ const config = {
       //   copyright: `Azalea`,
       // },
       prism: {
-        theme: prismThemes.github,
+        theme: prismThemes.vsLight,
         darkTheme: prismThemes.vsDark
       },
     }),
